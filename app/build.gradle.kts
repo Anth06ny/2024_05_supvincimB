@@ -49,7 +49,13 @@ android {
 dependencies {
 
     //Utilisation générale
+    //Utilisation générale
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:+")
+//LifeCycleScope
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.+")
+//ViewModelScope
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.+")
+
 //LifeCycleScope
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.+")
 //ViewModelScope
@@ -58,6 +64,13 @@ dependencies {
 
     //image url
     implementation("com.github.bumptech.glide:compose:1.0.0-beta01")
+
+
+    //Requete web
+    implementation("com.squareup.okhttp3:okhttp:+")
+    //JSon
+    implementation("com.google.code.gson:gson:+")
+
 
 
     implementation(libs.androidx.core.ktx)
